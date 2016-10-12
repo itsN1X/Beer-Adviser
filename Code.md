@@ -82,19 +82,12 @@ public class FindBeerActivity extends AppCompatActivity {
         }
         brands.setText(brandsFormatted);
     }
-
 }
-
 Beerexpert.java
-
 package com.example.tanmayjha.beeradviser;
-
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by tanmay jha on 12-06-2016.
- */
+/* Created by tanmay jha on 12-06-2016. */
 public class BeerExpert {
     List<String> getbrands(String color){
         List<String> brands=new ArrayList<String>();
@@ -108,7 +101,6 @@ public class BeerExpert {
         }
         return brands;
     }
-
 }
 --------------------------------------------------------------
 
